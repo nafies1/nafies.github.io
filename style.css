@@ -72,7 +72,9 @@ header nav ul li a:hover{
 	/*height: 100%;*/
 	padding: 10px;
 	/* margin: 0 auto; */
-	height: 100vh;
+    height: 100vh;
+    margin-top: 10px;
+    margin-bottom: 10px !important;
 }
 #home{
 	background-color: blue;
@@ -96,3 +98,13 @@ header nav ul li a:hover{
     -webkit-transition: background-color 0.2s ease;
     transition: background-color 0.2s ease;
   }
+  .card-title1 {
+    margin-bottom: 0.75rem;
+    text-align: center;
+  }
+
+@media (min-height: 700px) {
+  .container1 {
+    max-height: 720px;
+  }
+}
