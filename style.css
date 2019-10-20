@@ -55,7 +55,7 @@ header nav ul li a:hover{
     outline: 1px solid #bff8ff;
     box-shadow: -2px -2px 10px #b9e9ff inset, 2px 2px 10px -3px #3336;
 }
-main{
+/* main{
     width: 100%;
  
     display: relative;
@@ -63,7 +63,7 @@ main{
     box-shadow: 2px 2px 20px -6px #333;
     border-radius: 15px;
     text-align: center;
-   /* padding: 10px;*/
+   padding: 10px; */
 
 }
 #home,#about, #my-past,#blog, #contact {
@@ -71,7 +71,7 @@ main{
 	/*height: 1366px;*/
 	/*height: 100%;*/
 	padding: 10px;
-	margin: 0 auto;
+	/* margin: 0 auto; */
 	height: 100vh;
 }
 #home{
@@ -81,7 +81,7 @@ main{
 	background-color: green;
 }
 #my-past{
-	background-color: blue;
+	background-color: #d1d1e8;
 }
 #blog{
 	background-color: aqua;
@@ -89,3 +89,10 @@ main{
 #contact{
 	background-color: salmon;
 }
+#mainNav1 {
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    background-color: rgba(21, 57, 104, 0.90);
+    -webkit-transition: background-color 0.2s ease;
+    transition: background-color 0.2s ease;
+  }
